@@ -141,7 +141,11 @@ $(function(){
 	})
 })
 
-
+//返回顶部
+$('#to_top, #page_top').click(function(){
+          $("html, body").animate({ scrollTop: 0 }, 600);
+          return false;
+      });
 
 
 
