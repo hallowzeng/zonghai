@@ -28,16 +28,16 @@ img {
 	
 }
 .logo-title {
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .title-ch {
 	font-size: 16px;
-	padding: 0 6px;
 	font-weight: 700;
-	letter-spacing: 8px;
+	letter-spacing: 10px;
 	/*color: #00acf0;*/
-	padding: 4px;
-	text-align: center;
+	padding: 4px 6px;
 }
 .title-en {
 	font-size: 12px;
@@ -1469,8 +1469,7 @@ img {
 		letter-spacing: 10px;
 		line-height: 20px;
 		/*color: #00acf0;*/
-		padding: 0;
-		text-align: center;
+		padding: 0 6px;
 	}
 	.title-en {
 		font-size: 12px;
