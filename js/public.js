@@ -147,6 +147,13 @@ $('#to_top, #page_top').click(function(){
           return false;
       });
 
+//导航栏切换
+//$(document).ready(function(){
+//	$('.navwrap ul li').click(function(){
+//		$('li.active').removeClass('active');
+//		$(this).addClass('active');
+//	})
+//})
 
 
 

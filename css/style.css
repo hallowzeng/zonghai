@@ -20,6 +20,14 @@ body {
 img {
   max-width: 100%;
 }
+.active{
+	color: #00acf0;
+	/*border: dashed;*/
+}
+.newactive{
+	color: #00acf0;
+	border: dashed;
+}
 /*logo start*/
 .logo {
 	display: flex;
@@ -1465,15 +1473,15 @@ img {
 	}
 	.title-ch {
 		font-size: 14px;
-		font-weight: 600;
-		letter-spacing: 10px;
+		font-weight: 700;
+		letter-spacing: 8px;
 		line-height: 20px;
 		/*color: #00acf0;*/
 		padding: 0 6px;
 	}
 	.title-en {
 		font-size: 12px;
-		font-weight: 600;
+		font-weight: 700;
 		line-height: 16px;
 		/*color: #00acf0;*/
 		letter-spacing: -0.8px;
